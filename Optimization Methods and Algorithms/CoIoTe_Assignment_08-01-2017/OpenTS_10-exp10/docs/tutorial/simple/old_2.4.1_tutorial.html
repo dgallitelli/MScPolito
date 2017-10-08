@@ -1,0 +1,1097 @@
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html;CHARSET=iso-8859-1">
+<META HTTP-EQUIV="Content-Language" CONTENT="EN">
+
+<META NAME="keywords" CONTENT="opents,java,tabu,search,framework,heuristic,installation,instructions">
+<META NAME="description" CONTENT="Instructions for installing the Java Tabu Search Framework.">
+<META NAME="abstract" CONTENT="Instructions for installing the Java Tabu Search Framework.">
+
+<META NAME="author" CONTENT="rharder@usa.net">
+<META NAME="copyright" CONTENT="Robert Harder, 2000">
+<META NAME="distribution" CONTENT="Global">
+<META NAME="revisit-after" CONTENT="7 days">
+<META NAME="robots" CONTENT="FOLLOW,INDEX">
+
+<STYLE TYPE="text/css"><!--
+
+A:hover { 
+  background: lavender;
+  text-decoration: none }
+
+H1 {
+  font-family: arial;
+  font-style: italic;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 4pt;  }
+
+H2 {
+  font-family: arial;
+  font-style: italic;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0; }
+
+H3 {
+  font-family: arial;
+  font-style: italic;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0; }
+
+--></STYLE>
+
+<!--  ********************************  -->
+<!--  ********************************  -->
+<!--  ********************************  -->
+<!--  **  Begin Page Title inserts  **  -->
+<!--  ********************************  -->
+<!--  ********************************  -->
+<!--  ********************************  -->
+<TITLE>
+	OpenTS - Java Tabu Search Framework Tutorial
+</TITLE>
+<!--  *****************************  -->
+<!--  **  End Page Title inserts **  -->
+<!--  *****************************  -->
+
+</HEAD>
+<BODY LEFTMARGIN=0 TOPMARGIN=0 >
+<A NAME="top">
+
+<!--  Here begins the table that will define the top of the page.  -->
+<TABLE WIDTH="100%" HEIGHT=* BORDER=0 CELLPADDING=0 CELLSPACING=0>
+<TR>
+
+<!--  Reference to iHarder.net  -->
+<span id="iHarderCell">
+<TD HEIGHT=40 ALIGN="center" WIDTH=120 BGCOLOR="#000066">
+	<A HREF="http://www.iHarder.net">
+	<FONT SIZE="4" COLOR="white">
+	<I>i</I>Harder.net
+	</FONT></A>
+</TD>
+</span>
+
+<!--  This is the title that actually appears on the main page.  -->
+<TD WIDTH=* ALIGN="center" BGCOLOR="#000066">
+<!--  ***********************************  -->
+<!--  ***********************************  -->
+<!--  ***********************************  -->
+<!--  **  Begin Visible Title inserts  **  -->
+<!--  ***********************************  -->
+<!--  ***********************************  -->
+<!--  ***********************************  -->
+
+	<H1><FONT COLOR="white">OpenTS - Tutorial</FONT></H1>
+
+<!--  ********************************  -->
+<!--  **  End Visible Title inserts **  -->
+<!--  ********************************  -->
+</TD>
+
+
+
+<!--  This is the logo block that appears in the upper right corner.  -->
+<TD WIDTH=120 ALIGN="center" BGCOLOR="#000066">
+<!--  ********************************  -->
+<!--  ********************************  -->
+<!--  ********************************  -->
+<!--  **  Begin Logo Block inserts  **  -->
+<!--  ********************************  -->
+<!--  ********************************  -->
+<!--  ********************************  -->
+
+
+
+
+
+
+<!--  *****************************  -->
+<!--  **  End Logo Block inserts **  -->
+<!--  *****************************  -->
+</TD>
+</TR>
+</TABLE>
+
+<!--  Here begins the table that defines the bottom of the page.  -->
+<TABLE WIDTH="100%" HEIGHT="100%" CELLPADDING=0 CELLSPACING=0 BORDER=0>
+<TR>
+
+<!--  Here begins the left side of the screen. There will be a short
+      bar on top where a subtitle will go, and the rest is a menu.  -->
+<span id="leftSideCell" >
+<TD WIDTH=120 VALIGN="top" BGCOLOR="#8080C0" >
+<TABLE WIDTH="100%" HEIGHT="100%" CELLPADDING=2 CELLSPACING=0 BORDER=0>
+
+<!--  Here is the subtitle section.  -->
+<TR><TD HEIGHT=30 WIDTH="100%" BGCOLOR="#444466" ALIGN="center">
+<!--  ******************************  -->
+<!--  ******************************  -->
+<!--  ******************************  -->
+<!--  **  Begin Subtitle inserts  **  -->
+<!--  ******************************  -->
+<!--  ******************************  -->
+<!--  ******************************  -->
+
+	<H3><A HREF="http://opents.sourceforge.net"><FONT COLOR="white">
+	  OpenTS
+	</FONT></A></H3>
+
+<!--  ***************************  -->
+<!--  **  End Subtitle inserts **  -->
+<!--  ***************************  -->
+</TD></TR>
+
+
+<!--  Here is the menu section.  -->
+<TR><TD HEIGHT=* WIDTH="100%" BGCOLOR="#8080C0" ALIGN="left" VALIGN="top">
+<!--  **************************  -->
+<!--  **************************  -->
+<!--  **************************  -->
+<!--  **  Begin Menu inserts  **  -->
+<!--  **************************  -->
+<!--  **************************  -->
+<!--  **************************  -->
+		
+	<A HREF="../../../index.html"><FONT COLOR="black">Summary</FONT></A>
+	<P>
+	<A HREF="../../index.html"><FONT COLOR="black">Documentation</FONT></A>
+	<P>
+        <A HREF="../../../license.html"><FONT COLOR="black">License</FONT></A>
+        <P>
+
+<!--  ***********************  -->
+<!--  **  End Menu inserts **  -->
+<!--  ***********************  -->
+
+
+<!--  Here ends the table that is used on the left side of the screen.  -->
+</TABLE>
+</td>
+</span><!-- End of leftSideCell -->
+
+<!--  Here begins the main body of the page.  -->
+<TD WIDTH=* HEIGHT=* VALIGN="top">
+<TABLE WIDTH="100%" HEIGHT="100%" CELLPADDING=2 CELLSPACING=2 BORDER=0>
+<TR><TD VALIGN="top" WIDTH="100%" COLSPAN=2>
+
+<!--  *******************************  -->
+<!--  *******************************  -->
+<!--  *******************************  -->
+<!--  **  Begin Main Body inserts  **  -->
+<!--  *******************************  -->
+<!--  *******************************  -->
+<!--  *******************************  -->
+
+
+<H1>OpenTS - Java Tabu Search Framework</H1>
+<H4>
+by <A HREF="mailto:rharder@usa.net">Robert Harder</A> |
+<A HREF="../../../index.html">Summary</A> |
+<A HREF="../../index.html">Documentation</A> |
+<A HREF="../../../license.html">License</A> |
+</H4>
+
+
+<H2><HR>
+Tutorial: Creating a Simple Tabu Search
+<HR></H2>
+
+<h3>Please read this tutorial "with a grain of salt" until it is reviewed for its final form.</h3>
+
+We will begin by building a simple tabu search for the traveling salesman (TSP). Of course there is no end to the variations on the TSP, but we will take one and go with it, making it more complex as we go. At the beginning the problem will be defined in part by the following characteristics:
+
+
+<UL>
+  <LI>One salesman with infinite endurance, starting and ending at the same x-y coordinate.</LI>
+  <LI>An unknown number of customers generated randomly with x-y coordinate pairs.</LI>
+  <LI>The goal is to minimize the time it takes the salesman to visit all the customers.</LI>
+</UL>
+
+
+Let's take a look at the division of labor between your code and the Tabu Search Engine. The figure below shows which code is responsible for each step in an iteration.
+
+
+	<P ALIGN="CENTER"><IMG SRC="division.gif" >
+	<BR><I>Division of labor between your code and the T.S. Engine</I></P>
+
+
+
+<A NAME="solution">
+<H2>Solution Definition</H2>
+
+The first required object that we will build is the solution object. Our solution object will need to extend the <TT>net.iharder.tabusearch25.TSSolution</TT> abstract class. There is only one method that is required: <TT>clone</TT>. The tabu search engine requires that we be able to duplicate our solution objects. The abstract class also has some book-keeping methods that the tabu search engine uses.
+<P>
+Knowing that we may do something more complicated in the future, we'll create <TT>Salesman</TT> and <TT>Customer</TT> objects that we can store in the <TT>Solution</TT> in a clever fashion. For now our solution will contain a reference to our one salesman and an array that contains the customers in the order to be visited. 
+<P>
+Let's quickly define our <A HREF="Salesman.java"><TT>Salesman</TT></A> and <A HREF="Customer.java"><TT>Customer</TT></A> objects. Note throughout the tutorial our generous use of the <tt>final</tt> declaration. This is an attempt to help smart JVM's optimize the code. It is not necessary to use <tt>final</tt>.
+<P>
+<CENTER>
+<TABLE CELLPADDING=3 CELLSPACING=0 BORDER=1 WIDTH=*>
+<TR>
+<TD VALIGN="top">
+<A NAME="salesman_code">
+<H3>Salesman</H3>
+<PRE>
+public class Salesman
+{
+    private double homeX;
+    private double homeY;
+    private int id;
+    private static int nextID = 0;
+
+
+    // Constructor
+    public Salesman( double x, double y )
+    {   this.id = nextID++;
+        this.homeX = x;
+        this.homeY = y;
+    }   // end constructor
+
+
+    public final double getHomeX()
+    {	return homeX;
+    }   // end getHomeX
+
+
+    public final double getHomeY()
+    {   return homeY;
+    }   // end getHomeY
+
+
+    public final int getID()
+    {   return id;
+    }   // end getID
+
+}   // end class Salesman
+</PRE>
+</TD>
+
+<TD VALIGN="top">
+<A NAME="customer_code">
+<H3>Customer</H3>
+<PRE>
+public class Customer
+{
+    private double x;
+    private double y;
+    private int id;
+    private static int nextID = 1;
+
+
+    // Constructor
+    public Customer( double x, double y )
+    {   this.id = nextID++;
+        this.x = x;
+        this.y = y;
+    }   // end constructor
+
+
+    public final double getX()
+    {	return x;
+    }   // end getX
+
+
+    public final double getY()
+    {   return y;
+    }   // end getY
+
+
+    public final int getID()
+    {   return id;
+    }   // end getID
+
+}   // end class Customer
+</PRE>
+</TD>
+</TR>
+</TABLE>
+</CENTER>
+
+<P>
+
+Now we can design a <A HREF="TSPSolution.java"><TT>TSPSolution</TT></A> class that stores the salesman and customers and permits simple access to the data including moving customers from one position to another. Note that when we clone the solution, as required by <TT>TSSolution</TT>, we do not need to clone the salesman and customer objects. We only need to copy the pointers to these objects.
+
+<P>
+<CENTER>
+<TABLE CELLPADDING=3 CELLSPACING=0 BORDER=1 WIDTH=*>
+<TR>
+<TD VALIGN="top">
+<A NAME="tspsolution_code">
+<H3>TSPSolution</H3>
+<PRE>
+import net.iharder.tabusearch25.*;
+
+public class TSPSolution
+extends TSSolution
+{
+    private Salesman salesman;
+    private Customer[] customers;
+
+
+    // Normal constructor
+    public TSPSolution( 
+    Salesman salesman, Customer[] customers )
+    {	this.salesman = salesman;
+        this.customers = customers;
+    }   // end constructor
+
+
+    // This constructor aids in cloning
+    public TSPSolution( TSPSolution copyThis )
+    {
+        // You should call super( copyThis ) so that the
+        // abstract class can do its book-keeping.
+        super( copyThis );
+        
+        // Copy our data
+        this.salesman = copyThis.getSalesman();
+        Customer[] otherCust = copyThis.getCustomers();
+        this.customers = new Customer[ otherCust.length ];
+        System.arraycopy( otherCust, 0, 
+            this.customers, 0, otherCust.length );
+    }   // end constructor
+
+
+    public final Salesman getSalesman()
+    {   return salesman;
+    }   // end getSalesman
+
+
+    public final Customer[] getCustomers()
+    {   return customers;
+    }   // end getCustomers
+
+
+    // A quick and easy way to move customers around.
+    public final void swapCustomers( 
+    final int positionOne, final int positionTwo )
+    {
+        // Swap the customers
+        Customer cust = customers[positionOne];
+        customers[positionOne] = customers[positionTwo];
+        customers[positionTwo] = cust;
+        setObjectiveValid( false );
+    }   // end swapCustomers
+
+    
+    // 'clone' is required by TSSolution
+    public final Object clone()
+    {   return new TSPSolution( this );
+    }   // end clone
+
+
+}   // end class TSPSolution
+</PRE>
+</TD>
+</TR>
+</TABLE>
+</CENTER>
+
+<P>
+
+Since we are extending <TT>TSSolution</TT> we need to be sure that the <TT>tabusearch25.jar</TT> file is in the classpath. For example:
+
+<UL>
+<PRE>
+javac -classpath .;tabusearch25.jar Solution.java
+</PRE>
+</UL>
+
+This assumes that <TT>tabusearch25.jar</TT> is in the current directory. You may need to "back up" several directories if you're using the tutorial source files where they lie in <tt>docs/tutorial/simple</tt> in which case you can use the following:
+
+<UL>
+<PRE>
+javac -classpath .;../../../tabusearch25.jar Solution.java
+</PRE>
+</UL>
+
+
+<P>
+
+<H2>Moves & the Move Manager</H2>
+
+Next we must define how we intend to manipulate the solution space. A tabu search makes many small changes to a solution at each iteration and determines which of these new solutions, or <EM>neighbors</EM>, are the best. To accomplish that with this tabu search engine we will create a <TT>SwapMove</TT> class that performs some sort of swapping operation and a <TT>MoveManager</TT> class that generates these <TT>SwapMove</TT> objects at each iteration.
+
+<P>
+
+To create a <A HREF="SwapMove.java"><TT>SwapMove</TT></A> class we implement <TT>TSMove</TT> which requires that we have an <TT>operateOn</TT> method that will manipulate a <TT>Solution</TT> object. Note that since we actually included a swap method in the solution object itself, the move only has to call that method.
+
+<P>
+<CENTER>
+<TABLE CELLPADDING=3 CELLSPACING=0 BORDER=1 WIDTH=*>
+<TR>
+<TD VALIGN="top">
+<A NAME="swapmove_code">
+<H3>SwapMove</H3>
+<PRE>
+import net.iharder.tabusearch25.*;
+
+public class SwapMove
+implements TSMove
+{
+    private int positionOne;
+    private int positionTwo;
+
+    // Constructor
+    public SwapMove( int positionOne, int positionTwo )
+    {   this.positionOne = positionOne;
+        this.positionTwo = positionTwo;
+    }   // end constructor
+
+    
+    public final int getPositionOne()
+    {   return positionOne;
+    }   // end getPositionOne
+
+
+    public final int getPositionTwo()
+    {   return positionTwo;
+    }   // getPositionTwo
+
+
+    // This method is required by TSMove
+    public final void operateOn( final TSSolution solution )
+    {
+        // First we must cast the TSSolution to our
+        // solution type
+        TSPSolution soln = (TSPSolution) solution;
+
+        // Now swap
+        soln.swapCustomers( positionOne, positionTwo );
+    }   // end operateOn
+
+}   // end class SwapMove
+</PRE>
+</TD>
+</TR>
+</TABLE>
+</CENTER>
+<P>
+
+The tabu search engine will need a list of all the moves we're interested in at each iteration, so we need to create a <A HREF="MoveManager.java"><TT>MoveManager</TT></A> that will handle this job. The interface <TT>TSMoveManager</TT> will pass a current solution to our move mananger, and our move manager should return a list of moves to evaluate on that iteration. Note that we don't need a constructor in this class.
+
+<P>
+<CENTER>
+<TABLE CELLPADDING=3 CELLSPACING=0 BORDER=1 WIDTH=*>
+<TR>
+<TD VALIGN="top">
+<A NAME="movemanager_code">
+<H3>MoveManager</H3>
+<PRE>
+import net.iharder.tabusearch25.*;
+
+public class MoveManager
+implements TSMoveManager
+{
+    
+    // This method is required by TSMoveManager
+    public final TSMove[] getAllMoves( final TSSolution solution )
+    {
+        // First we must cast the TSSolution to our
+        // solution type
+        TSPSolution soln = (TSPSolution) solution;
+
+        // Determine the number of customers
+        int numCust = soln.getCustomers().length;
+
+        // Make all possible swap moves.
+        int count = 0;
+        for( int i = 0; i < numCust; i++ )
+            count += i;
+        SwapMove[] moves = new SwapMove[ count ];
+        int index = 0;
+        for( int i = 0; i < numCust-1; i++ )
+            for( int j = i+1; j < numCust; j++ )
+                moves[index++] = new SwapMove( i, j );
+
+        return moves;
+    }   // end getAllMoves
+
+}   // end class MoveManager
+</PRE>
+</TD>
+</TR>
+</TABLE>
+</CENTER>
+<P>
+
+
+
+<H2>Tabu List</H2>
+
+Next we need a tabu list to be the tabu search's memory. Two popular techniques for tabu lists are to save a hash value for the solution and to save attributes of the moves. In this tutorial we will base the tabu list <A HREF="TSPTabuList.java"><TT>TSPTabuList</TT><A> on attributes of moves that we've executed. We will prohibit any customer that has been moved from moving again for some period of time.
+
+
+<P>
+<CENTER>
+<TABLE CELLPADDING=3 CELLSPACING=0 BORDER=1 WIDTH=*>
+<TR>
+<TD VALIGN="top">
+<A NAME="tabulist_code">
+<H3>TSPTabuList</H3>
+<PRE>
+import net.iharder.tabusearch25.*;
+
+public class TSPTabuList
+implements TSTabuList
+{
+    private int[] disturbedMoves;
+    private int nextFreshPosition = 0;
+
+
+    // Constructor
+    public TSPTabuList( int tenure )
+    {   disturbedMoves = new int[ tenure ];
+    }   // end constructor
+
+
+    public final void registerMove( 
+    final TSMove executedMove, final TSSolution fromSolution )
+    {
+        // Cast the move and solution to our types
+        SwapMove move = (SwapMove) executedMove;
+        TSPSolution soln = (TSPSolution) fromSolution;
+
+        // Find which customers will be disturbed.
+        Customer[] customers = soln.getCustomers();
+        int disturbedOne = customers[ move.getPositionOne() ].getID();
+        int disturbedTwo = customers[ move.getPositionTwo() ].getID();
+
+        // Record the new moves in the tabu list
+        disturbedMoves[ nextFreshPosition++ % 
+            disturbedMoves.length ] = disturbedOne;
+        disturbedMoves[ nextFreshPosition++ % 
+            disturbedMoves.length ] = disturbedTwo;
+
+    }   // end registerMove
+
+
+    public final boolean allowMove( 
+    final TSMove proposedMove, final TSSolution fromSolution )
+    {
+        // Cast the move and solution to our types
+        SwapMove move = (SwapMove) proposedMove;
+        TSPSolution soln = (TSPSolution) fromSolution;
+
+        // Find which customers will be disturbed.
+        Customer[] customers = soln.getCustomers();
+        int disturbedOne = customers[ move.getPositionOne() ].getID();
+        int disturbedTwo = customers[ move.getPositionTwo() ].getID();
+
+        // Search the list for these values
+        boolean allow = true;
+        int i = 0;
+        while( allow && ( i < disturbedMoves.length ) )
+        {   int tabu = disturbedMoves[i];
+            if( ( disturbedOne == tabu ) || (disturbedTwo == tabu ) )
+                allow = false;
+            i++;
+        }   // end while: through list or until tabu found
+
+        return allow;
+    }   // end allowMove
+
+}   // end class TSPTabuList
+</PRE>
+</TD>
+</TR>
+</TABLE>
+</CENTER>
+<P>
+
+
+
+<H2>Objective Function</H2>
+
+Now we need a way to evaluate the solution. We'll create an <A HREF="ObjectiveFunction.java"><TT>ObjectiveFunction</TT></A> that will evaluate the time it takes the salesman to make the rounds. To avoid doing extra Euclidian geometry every time we evaluate the solution, we will pre-calculate a time matrix that includes the time it takes to get from every point to every other point. We can index the matrix with the customer id's, since we started those at one, and treat the zero-th elements as the salesman home.
+
+
+<P>
+<CENTER>
+<TABLE CELLPADDING=3 CELLSPACING=0 BORDER=1 WIDTH=*>
+<TR>
+<TD VALIGN="top">
+<A NAME="objectivefunction_code">
+<H3>ObjectiveFunction</H3>
+<PRE>
+import net.iharder.tabusearch25.*;
+
+public class ObjectiveFunction
+implements TSFunction
+{
+    private double[][] timeMatrix;
+
+    // Constructor
+    public ObjectiveFunction( TSPSolution initialSolution )
+    {   initTimeMatrix( initialSolution );
+    }   // end constructor
+
+
+    // Initialize a time matrix so we don't have
+    // to do lots of trig calculations at every iteration.
+    private final void initTimeMatrix( final TSPSolution soln )
+    {
+        // Index a two-dimension matrix by the customer's id,
+        // with zero being the home base for the salesman.
+        // We have a symmetric matrix, but we'll go ahead
+        // and fill in the whole thing.
+        final Salesman salesman = soln.getSalesman();
+        final Customer[] customers = soln.getCustomers();
+        final int numCust = customers.length;
+        timeMatrix = new double[ numCust + 1 ][ numCust + 1 ];
+
+        // Fill in to/from home base numbers
+        for( int i = 0; i < customers.length; i++ )
+        {
+            int custId = customers[i].getID();
+            double x1 = salesman.getHomeX();
+            double y1 = salesman.getHomeY();
+            double x2 = customers[i].getX();
+            double y2 = customers[i].getY();
+            double distance = distanceBetween( x1, y1, x2, y2 );
+            timeMatrix[ 0 ][ custId ] = distance;
+            timeMatrix[ custId ][ 0 ] = distance;
+        }   // end for: each customer
+
+        // Use double loop to fill in inter-customer distances
+        for( int i = 0; i < customers.length; i++ )
+        {
+            int custId1 = customers[i].getID();
+            double x1 = customers[i].getX();
+            double y1 = customers[i].getY();
+
+            for( int j = i+1; j < customers.length; j++ )
+            {
+                int custId2 = customers[j].getID();
+                double x2 = customers[j].getX();
+                double y2 = customers[j].getY();
+                double distance = distanceBetween( x1, y1, x2, y2 );
+                timeMatrix[ custId1 ][ custId2 ] = distance;
+                timeMatrix[ custId2 ][ custId1 ] = distance;
+            }   // end for: inner loop through customers
+        }   // end for: outer loop through customers
+
+    }   // end initTimeMatrix
+
+
+    // Calculate Euclidean distance between two points.
+    private final double distanceBetween( 
+    final double x1, final double y1,
+    final double x2, final double y2 )
+    {   final double deltaX = x2 - x1;
+        final double deltaY = y2 - y1;
+        return Math.sqrt( deltaX*deltaX + deltaY*deltaY );
+    }   // end distanceBetween
+
+
+    // Evaluate a solution based on a move.
+    public final double[] evaluate( 
+    final TSSolution solution, final TSMove theMove )
+    {
+        // First we must cast the TSSolution to our
+        // solution type
+        TSPSolution soln = (TSPSolution) solution;
+        SwapMove move = (SwapMove) theMove;
+        
+        // Get current cost
+        double[] costs = soln.getObjectiveValue();
+        double cost = 0; // Work with a primitive
+        if( costs != null ) 
+            cost = costs[0];
+
+        // Evaluate incremental change to solution.
+        if( move != null )
+            cost += calculateIncremental( soln, move );
+        else cost = calculateBase( soln );
+        
+        // Be sure to return the value as an array, even
+        // though we're not making use of that capability.
+        return new double[]{ cost };
+    }   // end evaluate
+
+    
+    // Find base value of solution without a move
+    private final double calculateBase( final TSPSolution soln )
+    {   
+        // Setup
+            double cost = 0;
+        Customer[] customers = soln.getCustomers();
+
+        // Add distances for start/finish
+        cost += timeMatrix[ 0 ][ customers[0].getID() ];
+        cost += timeMatrix[ customers[ 
+            customers.length-1].getID() ][ 0 ];
+
+        // Add distances for each leg
+        for( int i = 1; i < customers.length; i++ )
+            cost += timeMatrix[ customers[i-1].getID() ]
+                [ customers[i].getID() ];
+
+        return cost;
+    }   // end calculateBase
+    
+
+    // Find incremental change to the solution.
+    private final double calculateIncremental( 
+    final TSPSolution soln, final SwapMove move )
+    {
+        // For a tour: A  -  B  -  C  -  D  -  E
+        // swapping B and D would change the costs
+        // like so: -AB -BC -CD -DE +AD +DC + CB + BE
+        // which, in a symmetric matrix reduces to
+        //         -AB +AD -DE + BE
+
+        // Get customers
+        Customer[] customers = soln.getCustomers();
+
+        // Get positions B and D. Make sure the
+        // order is right.
+        int posOne = move.getPositionOne();
+        int posTwo = move.getPositionTwo();
+        int posB = Math.min( posOne, posTwo );
+        int posD = Math.max( posOne, posTwo );
+
+        // Get matrix positions for customers who move
+        int matrPosB = customers[ posB ].getID();
+        int matrPosD = customers[ posD ].getID();
+
+        // Positions A and E could be the home base, so
+        // their position in the time matrix could be 0.
+        int matrPosA = ( posB == 0 ) 
+            ? 0 : customers[ posB-1 ].getID();
+        int matrPosE = ( posD == customers.length-1 ) 
+            ? 0 : customers[ posD+1 ].getID();
+
+        // AB, AD, DE, BE
+        double AB = timeMatrix[ matrPosA ][ matrPosB ];
+        double AD = timeMatrix[ matrPosA ][ matrPosD ];
+        double DE = timeMatrix[ matrPosD ][ matrPosE ];
+        double BE = timeMatrix[ matrPosB ][ matrPosE ];
+
+        return ( -AB +AD -DE +BE );
+    }   // end calculateIncremental
+
+
+}   // end class ObjectiveFunction
+</PRE>
+</TD>
+</TR>
+</TABLE>
+</CENTER>
+
+<P>
+
+<h2>Putting it all Together</h2>
+
+Now that we've created the tabu search components, we can create a simple application that creates instance of this problem, solves it, and prints out results. Clearly you will want a better user interface than we present here in <a href="Main.java"><tt>Main</tt></a>.
+
+
+
+<P>
+<CENTER>
+<TABLE CELLPADDING=3 CELLSPACING=0 BORDER=1 WIDTH=*>
+<TR>
+<TD VALIGN="top">
+<A NAME="main_code">
+<H3>Main</H3>
+<PRE>
+import net.iharder.tabusearch25.*;
+
+public class Main
+{
+    // Random number generator.
+    private static java.util.Random R;
+
+    public static void main( String[] args )
+    {
+        // Use a constant random number seed.
+        long seed = 123456789;
+        R = new java.util.Random( seed );
+
+        // Define an operating region.
+        double x1 = 0;
+        double y1 = 0;
+        double x2 = 400;
+        double y2 = 400;
+
+        // The first argument when calling the 
+        // program can be the number of customers. 
+        // Otherwise, it defaults to 100 customers.
+        int custCount = 100;
+        try{ custCount = Integer.parseInt( args[0] ); }
+        catch( Exception e ){}
+        System.out.println( 
+          "Number of customers: " + custCount );
+
+        // The second argument when calling the 
+        // program can be the tabu list tenure. 
+        // Otherwise, it defaults to 10.
+        int tenure = 10;
+        try{ tenure = Integer.parseInt( args[1] ); }
+        catch( Exception e ){}
+        System.out.println( 
+          "Tabu list tenure: " + tenure );
+
+        // The third argument when calling the 
+        // program can be the number of iterations. 
+        // Otherwise, it defaults to 500.
+        int iterations = 500;
+        try{ iterations = Integer.parseInt( args[2] ); }
+        catch( Exception e ){}
+        System.out.println( 
+          "Number of iterations: " + iterations );
+
+        // Create customers in an area. 
+        Customer[] customers = createRandomCustomers( 
+          x1, y1, x2, y2, custCount );
+
+        // Create a salesman.
+        Salesman salesman = createRandomSalesman(
+          x1, y1, x2, y2 );
+
+        // Instantiate all the tabu search objects
+        TSPSolution initialSoln = new TSPSolution(
+          salesman, customers );
+        MoveManager moveMgr = new MoveManager();
+        TSPTabuList tabuList = new TSPTabuList( tenure );
+        ObjectiveFunction objFunc = 
+          new ObjectiveFunction( initialSoln );
+
+        // Create the Engine that will do the iterations.
+        // The 'false' indicates minimization.
+        TSEngine engine = new TSEngine( initialSoln,
+          tabuList, objFunc, moveMgr, false );
+
+        // Start the engine and immediately return 
+        // control to this thread.
+        engine.startSolving( iterations );
+
+        // Just stall this thread until the engine finishes.
+        engine.waitToFinish();
+
+        // Get the best solution (after casting it back).
+        TSPSolution bestSoln = 
+          (TSPSolution) engine.getBestSolution();
+
+        // Print the results
+        printSolution( bestSoln );
+        showSolutionFrame( bestSoln );
+    }   // end main
+
+
+    private static Customer[] createRandomCustomers( 
+      double lowerBoundX, double lowerBoundY, 
+      double upperBoundX, double upperBoundY, int count )
+    {   
+        // Some initializing
+        Customer[] customers = new Customer[ count ];
+        double spanX = upperBoundX - lowerBoundX;
+        double spanY = upperBoundY - lowerBoundY;
+
+        // Create customers within bounds
+        for( int i = 0; i < count; i++ )
+        {
+            // 0.0 to 0.999...
+            double rx = R.nextDouble(); 
+            double ry = R.nextDouble();
+            double x = ( rx * spanX ) + lowerBoundX;
+            double y = ( ry * spanY ) + lowerBoundY;
+            customers[ i ] = new Customer( x, y );
+        }   // end for: through each customer
+
+        return customers;
+    }   // end createRandomCustomers
+
+
+
+    private static Salesman createRandomSalesman( 
+      double lowerBoundX, double lowerBoundY, 
+      double upperBoundX, double upperBoundY )
+    {   
+        // Some initializing
+        double spanX = upperBoundX - lowerBoundX;
+        double spanY = upperBoundY - lowerBoundY;
+
+        // Create salesman within bounds
+        // 0.0 to 0.999...
+        double rx = R.nextDouble(); 
+        double ry = R.nextDouble();
+        double x = ( rx * spanX ) + lowerBoundX;
+        double y = ( ry * spanY ) + lowerBoundY;
+        return new Salesman( x, y );
+
+    }   // end createRandomSalesman
+
+
+    // Print out a solution.
+    private static void printSolution( TSPSolution soln )
+    {
+        Salesman salesman = soln.getSalesman();
+        Customer[] customers = soln.getCustomers();
+        double cost = soln.getObjectiveValue()[0];
+
+        System.out.println( "Solution" );
+        System.out.println( "  Cost: " + cost );
+        System.out.print  ( "  Sequence: H" );
+        for( int i = 0; i <= customers.length; i++ )
+            System.out.print( 
+              ( i < customers.length ) 
+              ? " - " + customers[ i ].getID() 
+              : " - H" );
+    }   // end printSolution
+
+    private static void showSolutionFrame( final TSPSolution soln )
+    {   final Salesman salesman = soln.getSalesman();
+        final Customer[] customers = soln.getCustomers();
+        java.awt.Panel panel = new java.awt.Panel()
+        {   public void paint( java.awt.Graphics g )
+            {   // Paint trip.
+                for( int i = 0; i < customers.length; i++ )
+                {   // First?
+                    if( i == 0 )
+                    {   g.setColor( java.awt.Color.red );
+                        g.drawLine( (int)salesman.getHomeX(), 
+                            (int)salesman.getHomeY(),
+                            (int)customers[0].getX(), 
+                            (int)customers[0].getY() );
+                        g.drawString( "HOME", 
+                            (int)salesman.getHomeX(), 
+                            (int)salesman.getHomeY() );
+                        g.setColor( java.awt.Color.green.darker() );
+                    }   // end if: first customer
+                    // Last?
+                    else if( i == (customers.length-1) )
+                    {   g.setColor( java.awt.Color.blue );
+                        g.drawLine( 
+                            (int)customers[customers.length-1].getX(), 
+                            (int)customers[customers.length-1].getY(),
+                            (int)salesman.getHomeX(), 
+                            (int)salesman.getHomeY() );
+                    }   // end else if: last
+                    // In between
+                    else
+                    {   g.drawLine(
+                            (int)customers[i].getX(), 
+                            (int)customers[i].getY(),
+                            (int)customers[i+1].getX(), 
+                            (int)customers[i+1].getY() );
+                    }   // end else: in between
+                }   // end for
+            }   // end paint
+        }; // end panel
+        
+        java.awt.Frame frame = new java.awt.Frame();
+        frame.add( panel, java.awt.BorderLayout.CENTER );
+        java.awt.Dimension dim = 
+            java.awt.Toolkit.getDefaultToolkit().getScreenSize();
+        int width, height;
+        width = height = 420;
+        frame.setBounds( 
+            (dim.width-width)/2, 
+            (dim.height-height)/2, 
+            width, height );
+        frame.addWindowListener( new java.awt.event.WindowAdapter()
+        {   public void windowClosing( java.awt.event.WindowEvent evt )
+            {   System.exit(0);
+            }   // end windowClosing
+        }); // end window adapter
+        frame.show();
+        
+    }   // end showSolutionFrame
+    
+}   // end class Main
+</PRE>
+</TD>
+</TR>
+</TABLE>
+</CENTER>
+
+
+<P>
+
+<h2>Running the Program</h2>
+
+We're ready to compile and run the tutorial. Put your eight tutorial <tt>*.java</tt> files in one directory and copy the <tt>tabusearch25.jar</tt> file into that directory. Compile the program from a command prompt like this:
+
+<P>
+<PRE>
+<TT>
+    javac -classpath .;tabusearch25.jar *.java
+</TT>
+</PRE>
+
+<P>
+
+Now run the program with default settings like this:
+
+<P>
+<PRE>
+<TT>
+    java -classpath .;tabusearch25.jar Main
+</TT>
+</PRE>
+
+<P>
+
+You should see a window like this:
+
+<P>
+
+<CENTER>
+<IMG SRC="solutionframe.gif"></IMG>
+</CENTER>
+
+<P>
+
+Not bad for such a simple tabu search.
+
+
+<P>&nbsp;</P>
+<HR>
+<P ALIGN="CENTER">
+by <A HREF="mailto:rharder@usa.net">Robert Harder</A> |
+<A HREF="../../../index.html">Summary</A> |
+<A HREF="http://www.crosswinds.net/~rharder/tabusearch/tabusearch25.zip">Download now</A> |
+<A HREF="../../index.html">Documentation</A> |
+<A HREF="../../../license.html">License</A> |
+<A HREF="#top">Top</A>
+</P>
+
+
+<!--  ****************************  -->
+<!--  **  End Main Body inserts **  -->
+<!--  ****************************  -->
+<!--  A quick banner ad.  -->
+<CENTER>
+<HR>
+<!-- Start SuperStats code version 2.0f.  Do not alter this code! http://www.superstats.com -->
+	<script language="JavaScript">
+	var pageName = "";
+	var code = " ";
+	</script>
+	<script src="http://code.superstats.com/code?u=rharder">
+	</script><script language="JavaScript">
+	document.write(code);
+	</script><noscript><a
+	href="http://stats.superstats.com/c.cgi?u=rharder"
+	target="_top"><img
+	src="http://stats.superstats.com/b.cgi?u=rharder&z=1"
+	border=0></a></noscript>
+<!-- End SuperStats tracking code. -->
+</CENTER>
+
+</TD></TR></TABLE>
+<!--  Here ends the main body of the page.  -->
+</TD>
+
+<!--  Here ends the row that contains the menu and main body of the page.  -->
+</TR>
+
+<!--  Here ends the table that defined the bottom of the page.  -->
+</TABLE>
+
+</BODY>
+</HTML>

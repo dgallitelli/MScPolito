@@ -1,0 +1,1 @@
+forfiles /s /m *.txt /c "cmd /c C:\Users\Massimo\Source\Repos\Optimization-Methods-Project\VSProject\Assignment\input\Assignment.exe -i @path -o C:\Users\Massimo\Source\Repos\Optimization-Methods-Project\VSProject\Assignment\output\summary.csv"

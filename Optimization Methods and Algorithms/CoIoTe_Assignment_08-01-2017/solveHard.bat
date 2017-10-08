@@ -1,0 +1,13 @@
+java -jar %cd%\Assignment.jar -i %cd%\input\Co_30_1_TT_0.txt -o %cd%\output\summary.csv -s %cd%\output\Co_30_1_TT_0.csv
+java -jar %cd%\Assignment.jar -i %cd%\input\Co_30_20_TT_0.txt -o %cd%\output\summary.csv -s %cd%\output\Co_30_20_TT_0.csv
+java -jar %cd%\Assignment.jar -i %cd%\input\Co_100_1_TT_0.txt -o %cd%\output\summary.csv -s %cd%\output\Co_100_1_TT_0.csv
+java -jar %cd%\Assignment.jar -i %cd%\input\Co_100_20_TT_0.txt -o %cd%\output\summary.csv -s %cd%\output\Co_100_20_TT_0.csv
+java -jar %cd%\Assignment.jar -i %cd%\input\Co_30_1_TL_0.txt -o %cd%\output\summary.csv -s %cd%\output\Co_30_1_TL_0.csv
+java -jar %cd%\Assignment.jar -i %cd%\input\Co_30_20_TL_0.txt -o %cd%\output\summary.csv -s %cd%\output\Co_30_20_TL_0.csv
+java -jar %cd%\Assignment.jar -i %cd%\input\Co_100_1_TL_0.txt -o %cd%\output\summary.csv -s %cd%\output\Co_100_1_TL_0.csv
+java -jar %cd%\Assignment.jar -i %cd%\input\Co_100_20_TL_0.txt -o %cd%\output\summary.csv -s %cd%\output\Co_100_20_TL_0.csv
+java -jar %cd%\Assignment.jar -i %cd%\input\Co_30_1_ST_0.txt -o %cd%\output\summary.csv -s %cd%\output\Co_30_1_ST_0.csv
+java -jar %cd%\Assignment.jar -i %cd%\input\Co_30_20_ST_0.txt -o %cd%\output\summary.csv -s %cd%\output\Co_30_20_ST_0.csv
+java -jar %cd%\Assignment.jar -i %cd%\input\Co_100_1_ST_0.txt -o %cd%\output\summary.csv -s %cd%\output\Co_100_1_ST_0.csv
+java -jar %cd%\Assignment.jar -i %cd%\input\Co_100_20_ST_0.txt -o %cd%\output\summary.csv -s %cd%\output\Co_100_20_ST_0.csv
+java -jar %cd%\Assignment.jar -i %cd%\input\Co_300_20_ST_0.txt -o %cd%\output\summary.csv -s %cd%\output\Co_300_20_ST_0.csv

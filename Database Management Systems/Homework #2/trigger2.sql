@@ -1,0 +1,41 @@
+CREATE OR REPLACE TRIGGER PhoneStateChange
+AFTER INSERT ON STATE_CHANGE
+FOR EACH ROW
+DECLARE
+  x NUMBER; active# NUMBER; excounter NUMBER; myCellID NUMBER; myCellMaxCalls NUMBER;
+BEGIN
+  IF (:NEW.CHANGETYPE = 'O') THEN
+    -- Branch for phone switching ON
+    INSERT INTO TELEPHONE(PHONENO,X,Y,PHONESTATE) VALUES (:NEW.PHONENO,:NEW.X,:NEW.Y,'ON');
+    x := 1;
+  ELSE
+    IF (:NEW.CHANGETYPE = 'F') THEN
+      -- Branch for phone switching OFF
+      DELETE FROM TELEPHONE WHERE PHONENO=:NEW.PHONENO;
+      x := -1;
+    ELSE
+      IF (:NEW.CHANGETYPE = 'C') THEN
+        -- Branch for phone wishing to CALL
+
+        x := 0;
+        SELECT CELLID,MAXCALLS INTO myCellID,myCellMaxCalls  FROM CELL WHERE (:NEW.x BETWEEN X0 AND X1) AND (:NEW.y BETWEEN Y0 AND Y1);
+
+        SELECT COUNT(*) INTO active#
+        FROM TELEPHONE, CELL
+        WHERE PHONESTATE='Active' AND (X BETWEEN X0 AND X1) AND (Y BETWEEN Y0 AND Y1) AND CELLID = myCellID;
+
+        IF (active# < myCellMaxCalls) THEN
+          UPDATE TELEPHONE SET PHONESTATE='Active' WHERE PHONENO=:NEW.PHONENO;
+        ELSE
+          SELECT COUNT(EXID) INTO excounter FROM EXCEPTION_LOG;
+          INSERT INTO EXCEPTION_LOG VALUES (excounter, myCellID, 'F');
+        END IF;
+      END IF;
+    END IF;
+  END IF;
+
+  UPDATE CELL
+  SET CURRENTPHONE# = CURRENTPHONE# + x
+  WHERE ((:NEW.x BETWEEN X0 AND X1) AND (:NEW.y BETWEEN Y0 AND Y1));
+
+END;

@@ -1,0 +1,17 @@
+Instructions for submitting code and documentation for the homework (16 Sep 2016):
+
+1) To submit your homeworks you must authenticate using your LABINF account through one of the following methods:
+- Using FTP from the web interface at this address:  https://www.labinf.polito.it/net2ftp
+- Using any FTPS-able client, like Filezilla, connecting to this server:   ftp.labinf.polito.it
+NOTICE: In both cases you will be asked to accept a Digital Certificate.
+
+2) Your works must be submitted each as a single zip file containing everything (source code, executable and any
+additional file that you find that could be of interest).
+The archive must be named mpbs1.zip for the first work, mpbs2.zip for
+the second work and mpbs3.zip for the third work and must be placed at
+the top (base) directory. Please note that the system is case sensitive!
+This means that at the end of upload in your home directory you will have
+three files mpbs1.zip, mpbs2.zip and mpbs3.zip.
+
+3) Deadline is by h.19 of Nov 18th for the first work, Dec 16th for the second work and Jan 20th for the third work. The files will be
+automatically collected by a daemon just after deadline.
